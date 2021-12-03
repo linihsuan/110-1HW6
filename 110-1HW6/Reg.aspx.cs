@@ -10,5 +10,10 @@ namespace _110_1HW6 {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
+
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+            lb_Msg.Text = rev_CTEL.Text + "合法";
+        }
     }
 }
