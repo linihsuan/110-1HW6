@@ -13,7 +13,7 @@ namespace _110_1HW6 {
 
         protected void btn_Submit_Click(object sender, EventArgs e)
         {
-            lb_Msg.Text = rev_CTEL.Text + "合法";
+            lb_Msg.Text = tb_CTEL.Text + "合法";
         }
     }
 }
